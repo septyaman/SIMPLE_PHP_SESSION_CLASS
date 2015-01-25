@@ -15,7 +15,7 @@
 	}
 	
 	//Public check
-	function $this->is_user_login(){
+	function is_user_login(){
 	  return ( $this->is_login ? true : false );
 	}
 	
