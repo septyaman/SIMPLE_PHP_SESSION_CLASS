@@ -11,7 +11,7 @@
 
 	function __construct() {
 		session_start();
-		$this->auth_user();
+		$this->cek_user();
 	}
 	
 	//Public check
@@ -30,6 +30,7 @@
 	  else { $this->is_login=false; }
 	  
 	}
+
 	
 	// Check the session if exist and !empty
 	// Return value if exist, or return false
