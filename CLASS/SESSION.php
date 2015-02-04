@@ -30,6 +30,12 @@
 	  else { $this->is_login=false; }
 	  
 	}
+	
+	private function set_device(){
+	
+	  // device function will be at ...
+	
+	}
 
 	
 	// Check the session if exist and !empty
